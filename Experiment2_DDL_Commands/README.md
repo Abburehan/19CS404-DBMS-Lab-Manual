@@ -112,6 +112,7 @@ ALTER TABLE  Student_details ADD COLUMN Email VARCHAR(50);
 ALTER TABLE  Student_details ADD COLUMN MARKS DEFAULT '0';
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/41e43d88-f295-46d4-9673-151eb30f7252)
 
 **Question 2**
@@ -128,7 +129,9 @@ CHECK (LENGTH(phone)>=10)
 );
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/b10a2a42-ed63-48c2-ab45-1d4e51dfb72c)
+
 **Question 3**
 
 Insert all books from Out_of_print_books into Books
@@ -140,7 +143,9 @@ SELECT ISBN, Title, Author, Publisher, YearPublished
 FROM Out_of_print_books;
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/328de030-3f54-4913-9cf0-f31d66e96176)
+
 **Question 4**
 
 Create a table named Departments with the following columns:
@@ -152,7 +157,9 @@ DepartmentID INTEGER,
 DepartmentName TEXT);
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/d2681c38-a51e-4f9a-9cc3-ea7ad2a10239)
+
 **Question 5**
 
 Write an SQL query to add two new columns, department_id and manager_id, to the table employee with datatype of INTEGER. The manager_id column should have a default value of NULL.
@@ -161,7 +168,9 @@ ALTER TABLE employee ADD COLUMN department_id INTEGER;
 ALTER TABLE employee ADD COLUMN manager_id INTEGER DEFAULT NULL;
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/3e6e5a6f-a591-4bf9-b782-bc1bf254f294)
+
 **Question 6**
 
 Insert all customers from Old_customers into Customers
@@ -173,7 +182,9 @@ SELECT CustomerID, Name, Address, Email
 FROM Old_customers;6
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/fbe06400-1af9-4ad4-8124-2b7cfbc15133)
+
 **Question 7**
 
 ---Write a SQL query to Add a new column named "discount" with the data type DECIMAL(5,2) to the "customer" table.
@@ -185,7 +196,9 @@ customer_id | cust_name | city | grade | salesman_id -------------+-------------
 ALTER TABLE customer  ADD COLUMN discount DECIMAL(5,2);
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/36a208e2-be5a-4f06-981f-7dd319624702)
+
 **Question 8**
 
 Create a table named Members with the following columns:
@@ -199,7 +212,9 @@ JoinDate DATE
 );
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/ae62e948-784c-41fc-8306-abe353d67a67)
+
 **Question 9**
 
 Write a SQL query to add birth_date attribute as timestamp (datatype) in the table customer
@@ -212,7 +227,9 @@ alter table customer
 add column birth_date timestamp;
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/bba90f72-ffaf-421b-aa1b-7f8af88a9974)
+
 **Question 10**
 
 Insert the below data into the Student_details table, allowing the Subject and MARKS columns to take their default values.
@@ -227,6 +244,8 @@ insert into Student_details(RollNo,Name,Gender)
 values(204,"Samuel Black","M");
 ```
 **Output:**
+
 ![image](https://github.com/user-attachments/assets/bebae773-dde6-4e40-91af-30e805d5c05b)
+
 ## RESULT
 Thus, the SQL queries to implement different types of constraints and DDL commands have been executed successfully.
