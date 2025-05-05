@@ -131,7 +131,7 @@ CHECK (LENGTH(phone)>=10)
 ![image](https://github.com/user-attachments/assets/b10a2a42-ed63-48c2-ab45-1d4e51dfb72c)
 **Question 3**
 
-nsert all books from Out_of_print_books into Books
+Insert all books from Out_of_print_books into Books
 
 Table attributes are ISBN, Title, Author, Publisher, YearPublished
 ```
@@ -140,6 +140,7 @@ SELECT ISBN, Title, Author, Publisher, YearPublished
 FROM Out_of_print_books;
 ```
 **Output:**
+![image](https://github.com/user-attachments/assets/328de030-3f54-4913-9cf0-f31d66e96176)
 **Question 4**
 
 Create a table named Departments with the following columns:
